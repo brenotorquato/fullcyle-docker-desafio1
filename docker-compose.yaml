@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+
+  golang:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: brenotorquato/fullcycle
+    container_name: golang_fullcyle
